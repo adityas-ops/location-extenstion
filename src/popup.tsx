@@ -41,13 +41,13 @@ function IndexPopup() {
   };
 
   return (
-    <div className="plasmo-w-[500px] plasmo-h-[500px] plasmo-flex-col plasmo-gap-[20px] plasmo-flex plasmo-justify-center plasmo-items-center">
+    <div className="plasmo-w-[500px] plasmo-h-[500px] plasmo-flex-col plasmo-bg-[#1B1D31] plasmo-gap-[20px] plasmo-flex plasmo-justify-center plasmo-items-center">
 
-      <div className="    plasmo-text-xl plasmo-font-bold   plasmo-text-center ">
+      <div className="    plasmo-text-xl plasmo-text-white plasmo-font-bold   plasmo-text-center ">
         {data &&
           <>
-            <p className=" plasmo-py-[10px] ">Your Country is <span className="plasmo-text-indigo-500"> {data?.location.country || ''}</span></p>
-            <p className=" plasmo-py-[10px] ">Your City is <span className="plasmo-text-indigo-500">  {data?.location.city || ''}</span> </p>
+            <p className=" plasmo-py-[10px]  ">Your Country is <span className="plasmo-text-[#E53753]"> {data?.location.country || ''}</span></p>
+            <p className=" plasmo-py-[10px] ">Your City is <span className="plasmo-text-[#E53753]">  {data?.location.city || ''}</span> </p>
           </>
         }
       </div>
@@ -57,7 +57,7 @@ function IndexPopup() {
       <button
         onClick={handleData}
         type="button"
-        className="plasmo-w-[300px] plasmo-bg-indigo-500 plasmo-text-xl plasmo-rounded-md plasmo-font-bold plasmo-text-white plasmo-py-[15px]"
+        className="plasmo-w-[300px] plasmo-bg-[#E53753] plasmo-text-xl plasmo-rounded-md plasmo-font-bold plasmo-text-white plasmo-py-[15px]"
       >
          {
 
