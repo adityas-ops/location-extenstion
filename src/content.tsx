@@ -15,8 +15,8 @@ export const getStyle = () => {
 
 const PlasmoOverlay = () => {
   return (
-    <div className="plasmo-z-50 plasmo-flex plasmo-fixed plasmo-top-32 plasmo-right-8">
-      <CountButton />
+    <div className="plasmo-z-50 plasmo-flex plasmo-rounded-lg  plasmo-fixed plasmo-top-80 plasmo-left-0">
+      {/* <CountButton /> */}
     </div>
   )
 }
