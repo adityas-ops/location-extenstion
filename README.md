@@ -2,7 +2,13 @@ This is a [Plasmo extension](https://docs.plasmo.com/) project bootstrapped with
 
 ## Getting Started
 
-First, run the development server:
+First 
+```
+npm i plasmo
+
+```
+
+After, run the development server:
 
 ```bash
 pnpm dev
